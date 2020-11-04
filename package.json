@@ -157,7 +157,7 @@
     "clean-up-svg-icons": "sh ./scripts/clean-up-svg-icons.sh"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
+    "registry":"https://npm.pkg.github.com/hesiod-io"
   },
   "lint-staged": {
     "**/*.js": [
