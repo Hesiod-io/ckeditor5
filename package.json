@@ -2,7 +2,7 @@
   "name": "ckeditor5",
   "version": "23.1.0",
   "description": "The development environment of CKEditor 5 – the best browser-based rich text editor.",
-  "private": true,
+  "private": false,
   "keywords": [
     "ckeditor",
     "ckeditor5",
@@ -125,11 +125,11 @@
   },
   "author": "CKSource (http://cksource.com/)",
   "license": "GPL-2.0-or-later",
-  "homepage": "https://ckeditor.com/ckeditor-5",
-  "bugs": "https://github.com/ckeditor/ckeditor5/issues",
+  "homepage": "https://github.com/Hesiod-io/ckeditor5.git",
+  "bugs": "https://github.com/Hesiod-io/ckeditor5.git/issues",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ckeditor/ckeditor5.git"
+    "url": "https://github.com/Hesiod-io/ckeditor5.git"
   },
   "scripts": {
     "lint": "eslint --quiet '**/*.js'",
@@ -155,6 +155,9 @@
     "release:publish": "node ./scripts/release/publish.js",
     "switch-to-dev-dev": "sh ./scripts/switch-to-dev-dev.sh",
     "clean-up-svg-icons": "sh ./scripts/clean-up-svg-icons.sh"
+  },
+  "publishConfig": {
+    "registry":"https://npm.pkg.github.com/Hesiod-io"
   },
   "lint-staged": {
     "**/*.js": [
