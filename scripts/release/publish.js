@@ -27,7 +27,7 @@ require( '@ckeditor/ckeditor5-dev-env' )
 	.releaseSubRepositories( {
 		cwd: process.cwd(),
 		packages: 'packages',
-		releaseBranch: 'release',
+		releaseBranch: 'master',
 		emptyReleases: [
 			'ckeditor5'
 		],
