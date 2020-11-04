@@ -26,6 +26,6 @@ require( '@ckeditor/ckeditor5-dev-env' )
 	.bumpVersions( {
 		cwd: process.cwd(),
 		packages: 'packages',
-		releaseBranch: 'release',
+		releaseBranch: 'master',
 		dryRun: process.argv.includes( '--dry-run' )
 	} );
